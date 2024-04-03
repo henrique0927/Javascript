@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="script" href="./script.js">
+    <title>intro Javascript</title>
+</head>
+<body>
+    <div class="container my-5 p-large">
+        <h1>Vamos fazer nosso primeriro script Rodar</h1>
+        <p class="p-2 my-2 font-weight-bold" id="test">Onde eu Estou</p>
+        
+        <button type="button" class="btn btn-secondary mr-3 my-2" onclick="document.getElementById('test').innerHTML = 'É quarta-feira meus bacanos'; document.getElementById('test').style.display = 'block' ">Traga uma frase motivacional</button>
+        <button type="button" class="btn btn-info mr-3" onclick="document.getElementById('test').style.display = 'none' ">Suma com tudo</button>
+        <button type="button"  class="btn btn-primary mr-3" onclick="funcaoMudarTamanhoGrande()">Aumentar Fonte</button>
+        <button type="button"  class="btn btn-primary mr-3" onclick="funcaoMudarTamanhoPequeno()">Diminuir Fonte</button>
+        <button type="button" class="btn btn-warning" onclick="conta()">Realizar Conta</button>
+    </div>
+
+</body>
+    <script src="script.js"></script>
+</html>
