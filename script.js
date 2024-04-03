@@ -1,8 +1,8 @@
 function conta() {
     var block = 'block';
+    const textConta = '18 + 9 = '
     document.getElementById('test').style.display = block;
-    document.getElementById('test').innerHTML = 9 + 18;
-
+    document.getElementById('test').innerHTML = `${textConta} 27`
 };
 
 function funcaoMudarTamanhoGrande () {
